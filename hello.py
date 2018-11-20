@@ -10,6 +10,7 @@ def print_file(file_name):
 	f.close()
 
 def write_file(file_name):
+	print("into file")
 	f = open(file_name, "w+")
 	f.write("hello")
 	f.write("\tworld\n")
